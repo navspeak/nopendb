@@ -1,4 +1,4 @@
-var nopendb = new ( require('nopendb') );
+var nopendb = new ( require('./lib/nopendb.js') );
 var app = require('express')();
 var bodyParser = require('body-parser');
 var http = require("http");
