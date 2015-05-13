@@ -1,0 +1,67 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.34
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . C:\Users\knavneet\AppData\Roaming\npm-cache\3a52ce78-.lock
+10 verbose tar pack [ 'C:\\Users\\knavneet\\AppData\\Roaming\\npm-cache\\nopendb\\1.0.0\\package.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball C:\Users\knavneet\AppData\Roaming\npm-cache\nopendb\1.0.0\package.tgz
+12 verbose folder .
+13 info prepublish nopendb@1.0.0
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. C:\Users\knavneet\AppData\Roaming\npm-cache\1f1177db-tar.lock
+16 silly lockFile 32244faf--cache-nopendb-1-0-0-package-tgz tar://C:\Users\knavneet\AppData\Roaming\npm-cache\nopendb\1.0.0\package.tgz
+17 verbose lock tar://C:\Users\knavneet\AppData\Roaming\npm-cache\nopendb\1.0.0\package.tgz C:\Users\knavneet\AppData\Roaming\npm-cache\32244faf--cache-nopendb-1-0-0-package-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 32244faf--cache-nopendb-1-0-0-package-tgz tar://C:\Users\knavneet\AppData\Roaming\npm-cache\nopendb\1.0.0\package.tgz
+21 silly lockFile 32244faf--cache-nopendb-1-0-0-package-tgz tar://C:\Users\knavneet\AppData\Roaming\npm-cache\nopendb\1.0.0\package.tgz
+22 silly lockFile 3a07f92e--npm-cache-nopendb-1-0-0-package C:\Users\knavneet\AppData\Roaming\npm-cache\nopendb\1.0.0\package
+23 verbose lock C:\Users\knavneet\AppData\Roaming\npm-cache\nopendb\1.0.0\package C:\Users\knavneet\AppData\Roaming\npm-cache\3a07f92e--npm-cache-nopendb-1-0-0-package.lock
+24 silly lockFile 3a07f92e--npm-cache-nopendb-1-0-0-package C:\Users\knavneet\AppData\Roaming\npm-cache\nopendb\1.0.0\package
+25 silly lockFile 3a07f92e--npm-cache-nopendb-1-0-0-package C:\Users\knavneet\AppData\Roaming\npm-cache\nopendb\1.0.0\package
+26 silly lockFile 3a52ce78- .
+27 silly lockFile 3a52ce78- .
+28 silly publish { name: 'nopendb',
+28 silly publish   version: '1.0.0',
+28 silly publish   description: 'Node module to perform CRUD on OE Database',
+28 silly publish   main: 'index.js',
+28 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+28 silly publish   repository: { type: 'git', url: 'https://github.com/navspeak/nopendb.git' },
+28 silly publish   keywords: [ 'nopendb', 'oe' ],
+28 silly publish   author: { name: 'navspeak' },
+28 silly publish   license: 'ISC',
+28 silly publish   bugs: { url: 'https://github.com/navspeak/nopendb/issues' },
+28 silly publish   homepage: 'https://github.com/navspeak/nopendb',
+28 silly publish   gitHead: 'bdfb4a516a90b58066e9b5274a3cb88ed77bc07b',
+28 silly publish   readme: 'ERROR: No README data found!',
+28 silly publish   _id: 'nopendb@1.0.0',
+28 silly publish   _shasum: '7b7fdac0bde921d307992715433b04ff35a06a73',
+28 silly publish   _from: '.' }
+29 error need auth auth and email required for publishing
+29 error need auth You need to authorize this machine using `npm adduser`
+30 error System Windows_NT 6.1.7601
+31 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+32 error cwd c:\node\final\git\nopendb
+33 error node -v v0.10.34
+34 error npm -v 1.4.28
+35 error code ENEEDAUTH
+36 verbose exit [ 1, true ]
