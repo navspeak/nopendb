@@ -14,7 +14,7 @@ app.get('/nodeopenedge/:table', function(req, res) {
 	var query = require('url').parse(req.url,true).query;
 	console.log(query);
 	var list = { "CustNum" : 1 , "Country" : 1};
-	var whereJson ={ "$and" : [ { "CustNum" : 10  }, {"CustNum" : { "$lt" : 29 } } ] } ;
+	var whereJson ={ "$and" : [ { "CustNum" : { $gt : 10 }  }, {"CustNum" : { "$lt" : 29 } } ] } ;
 	/*var whereJson ={ "CustNum" : { "$lt" : 29 } } ;
 	var whereJson = { "CustNum" : 29  };
 	var whereJson = {};*/

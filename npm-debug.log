@@ -51,17 +51,50 @@
 28 silly publish   license: 'ISC',
 28 silly publish   bugs: { url: 'https://github.com/navspeak/nopendb/issues' },
 28 silly publish   homepage: 'https://github.com/navspeak/nopendb',
-28 silly publish   gitHead: 'bdfb4a516a90b58066e9b5274a3cb88ed77bc07b',
+28 silly publish   gitHead: '4c5768db63791a9b4f3bfabd20e3c1f44c36388b',
 28 silly publish   readme: 'ERROR: No README data found!',
 28 silly publish   _id: 'nopendb@1.0.0',
-28 silly publish   _shasum: '7b7fdac0bde921d307992715433b04ff35a06a73',
+28 silly publish   _shasum: '0ad2e3ac41f9ae3998937ebf6bb48309c97e2c3a',
 28 silly publish   _from: '.' }
-29 error need auth auth and email required for publishing
-29 error need auth You need to authorize this machine using `npm adduser`
-30 error System Windows_NT 6.1.7601
-31 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
-32 error cwd c:\node\final\git\nopendb
-33 error node -v v0.10.34
-34 error npm -v 1.4.28
-35 error code ENEEDAUTH
-36 verbose exit [ 1, true ]
+29 verbose request where is /nopendb
+30 verbose request registry https://registry.npmjs.org/
+31 verbose request id 5d5d1f8728b61b0d
+32 verbose url raw /nopendb
+33 verbose url resolving [ 'https://registry.npmjs.org/', './nopendb' ]
+34 verbose url resolved https://registry.npmjs.org/nopendb
+35 verbose request where is https://registry.npmjs.org/nopendb
+36 info trying registry request attempt 1 at 12:48:26
+37 http PUT https://registry.npmjs.org/nopendb
+38 http 403 https://registry.npmjs.org/nopendb
+39 verbose headers { 'content-type': 'application/json',
+39 verbose headers   'cache-control': 'max-age=60',
+39 verbose headers   'content-length': '95',
+39 verbose headers   'accept-ranges': 'bytes',
+39 verbose headers   date: 'Wed, 13 May 2015 07:18:26 GMT',
+39 verbose headers   via: '1.1 varnish',
+39 verbose headers   connection: 'keep-alive',
+39 verbose headers   'x-served-by': 'cache-sn88-SIN',
+39 verbose headers   'x-cache': 'MISS',
+39 verbose headers   'x-cache-hits': '0',
+39 verbose headers   'x-timer': 'S1431501506.332351,VS0,VE307' }
+40 error publish Failed PUT 403
+41 error Error: "You cannot publish over the previously published version 1.0.0." : nopendb
+41 error     at RegClient.<anonymous> (c:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:308:14)
+41 error     at Request._callback (c:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:246:65)
+41 error     at Request.self.callback (c:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:236:22)
+41 error     at Request.emit (events.js:98:17)
+41 error     at Request.<anonymous> (c:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1142:14)
+41 error     at Request.emit (events.js:117:20)
+41 error     at IncomingMessage.<anonymous> (c:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1096:12)
+41 error     at IncomingMessage.emit (events.js:117:20)
+41 error     at _stream_readable.js:944:16
+41 error     at process._tickCallback (node.js:442:13)
+42 error If you need help, you may report this *entire* log,
+42 error including the npm and node versions, at:
+42 error     <http://github.com/npm/npm/issues>
+43 error System Windows_NT 6.1.7601
+44 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+45 error cwd c:\node\final\git\nopendb
+46 error node -v v0.10.34
+47 error npm -v 1.4.28
+48 verbose exit [ 1, true ]
